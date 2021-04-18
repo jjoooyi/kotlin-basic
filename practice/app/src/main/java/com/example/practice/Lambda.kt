@@ -34,6 +34,7 @@ fun main() {
     println(calculateGrade(971))
 
     val lambda = {number : Double -> number == 4.3213}
+    // val lambda : (Double) -> Boolean = {number : Double -> number == 4.3213}
     println(invokeLambda(lambda))
 
     // 람다 리터럴
